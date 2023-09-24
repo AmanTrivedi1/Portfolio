@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Resume from "../../src/img/Aman (1).pdf";
 const line1 = "Aman Trivedi";
 const line2 = "I am a full Stack developer.";
 
@@ -64,7 +64,9 @@ const Home = () => {
             I am focused on building a responsive full-stack web application
           </p>
           <div>
-            <button className="btn mt-5">View Work</button>
+            <a download="" className="btn mt-5 w-40 h-14" href={Resume}>
+              Resume
+            </a>
           </div>
         </div>
       </div>

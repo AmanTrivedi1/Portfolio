@@ -1,6 +1,6 @@
 import React from "react";
 import Socials from "./Socials";
-import Logo from "../img/header/logo.svg";
+
 import MobileNav from "./MobileNav";
 import { Link } from "react-router-dom";
 const Header = () => {
