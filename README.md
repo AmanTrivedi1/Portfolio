@@ -1,1 +1,1 @@
-# photography starter
+# Just a Simple Portfolio
