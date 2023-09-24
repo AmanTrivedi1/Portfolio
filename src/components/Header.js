@@ -38,12 +38,6 @@ const Header = () => {
             >
               Skills
             </Link>
-            <Link
-              to="/contact"
-              className="text-[#aeb0b1] text-lg hover:text-accent transition"
-            >
-              Contact
-            </Link>
           </nav>
         </div>
         <Socials />

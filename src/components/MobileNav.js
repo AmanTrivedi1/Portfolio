@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { CgMenuRight } from "react-icons/cg";
-
+import { SocialIcon } from "react-social-icons";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -49,12 +49,36 @@ const MobileNav = () => {
             <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
+
             <li>
               <Link to="/skills">Skills</Link>
             </li>
+            <div className="flex  items-start justify-center gap-x-4">
+              <li className="">
+                <SocialIcon
+                  network="github"
+                  url="https://github.com/AmanTrivedi1"
+                />
+              </li>
+              <li>
+                <SocialIcon
+                  network="twitter"
+                  url="https://twitter.com/Aman_trivedi10"
+                />
+              </li>
+              <li>
+                <SocialIcon
+                  network="instagram"
+                  url="https://www.instagram.com/_beingaman._/"
+                />
+              </li>
+              <li>
+                <SocialIcon
+                  network="linkedin"
+                  url="https://www.linkedin.com/in/aman-trivedi-a70974213/"
+                />
+              </li>
+            </div>
           </ul>
         </motion.div>
       </nav>
