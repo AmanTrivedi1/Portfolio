@@ -130,7 +130,7 @@ const Skills = () => {
             </div>
             <div className="shadow-md cursor-pointer hover:shadow-text rounded-lg hover:scale-110 duration-500">
               <img className="w-16 mx-auto " src={Java} alt="/stack" />
-              <p>Jav</p>
+              <p>Java</p>
             </div>
           </div>
         </div>
