@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className=" w-full fixed px-[30px] lg:px-[100px] z-40 h-[100px] lg:h-[140px] flex items-center ">
+      <header className=" w-full fixed px-[30px] bg-primary lg:px-[100px]  z-30 h-20 flex items-center ">
         <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
           <Link to="/" className="max-w-[200px]">
-            <h1 className="text-3xl text-accent  font-semibold  font-primary">
-              Aman Trivedi
+            <h1 className="text-3xl text-text  font-semibold  font-primary">
+              AT
             </h1>
           </Link>
           <nav className="hidden lg:flex gap-x-12 font-semibold ">
@@ -31,6 +31,12 @@ const Header = () => {
               className="text-[#aeb0b1] text-lg hover:text-accent transition"
             >
               Portfolio
+            </Link>
+            <Link
+              to="/skills"
+              className="text-[#aeb0b1] text-lg hover:text-accent transition"
+            >
+              Skills
             </Link>
             <Link
               to="/contact"
