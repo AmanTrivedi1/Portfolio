@@ -5,6 +5,8 @@ import work3 from "../../src/img/project/pr3.png";
 import work4 from "../../src/img/project/pr4.png";
 import work5 from "../../src/img/project/pr5.png";
 import work6 from "../../src/img/project/pr6.png";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import { motion } from "framer-motion";
 
 const line1 = "Work";
@@ -32,6 +34,20 @@ const letter = {
 };
 
 const Portfolio = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1023, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 767, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <>
       <div
@@ -70,65 +86,14 @@ const Portfolio = () => {
             </motion.p>
             <p className="py-6"></p>
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+          <Carousel
+            responsive={responsive}
+            containerClass="-mx-[10px]"
+            itemClass="px-[10px]"
+          >
             <div>
               <img src={work1} alt="work" />
-
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Scribble">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div>
-              <img src={work2} alt="work" />
-
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Order-Food-Online">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div>
-              <img src={work3} alt="work" />
-
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Consummer-2-Consummer">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div>
-              <img src={work5} alt="work" />
-
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Movie-Webapp">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div>
-              <img src={work4} alt="work" />
-
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Nikestore-client">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div>
-              <img src={work6} alt="work" />
-
               <div>
                 <a href="https://github.com/AmanTrivedi1/Tweet">
                   <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
@@ -137,7 +102,62 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-          </div>
+
+            <div>
+              <img src={work2} alt="work" />
+              <div>
+                <a href="https://github.com/AmanTrivedi1/Tweet">
+                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <img src={work3} alt="work" />
+              <div>
+                <a href="https://github.com/AmanTrivedi1/Tweet">
+                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <img src={work4} alt="work" />
+              <div>
+                <a href="https://github.com/AmanTrivedi1/Tweet">
+                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <img src={work5} alt="work" />
+              <div>
+                <a href="https://github.com/AmanTrivedi1/Tweet">
+                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <img src={work6} alt="work" />
+              <div>
+                <a href="https://github.com/AmanTrivedi1/Tweet">
+                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </Carousel>
         </div>
       </div>
     </>

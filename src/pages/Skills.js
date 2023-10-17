@@ -12,7 +12,7 @@ import Java from "../img/all/java.png";
 import NextJs from "../img/all/nextjs.png";
 import { motion } from "framer-motion";
 const line1 = "Experience";
-const line2 = "// Thsese are the technologies i've work with";
+const line2 = "// These are the technologies i've work with";
 
 const sentence = {
   hidden: { opacity: 1 },
