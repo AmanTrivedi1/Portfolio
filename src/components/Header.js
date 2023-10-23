@@ -30,7 +30,7 @@ const Header = () => {
               to="/portfolio"
               className="text-[#aeb0b1] text-lg hover:text-accent transition"
             >
-              Portfolio
+              Project
             </Link>
             <Link
               to="/skills"

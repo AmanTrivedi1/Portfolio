@@ -3,8 +3,8 @@ import work1 from "../../src/img/project/pr1.png";
 import work2 from "../../src/img/project/pr2.png";
 import work3 from "../../src/img/project/pr3.png";
 import work4 from "../../src/img/project/pr4.png";
-import work5 from "../../src/img/project/pr5.png";
-import work6 from "../../src/img/project/pr6.png";
+import work5 from "../../src/img/project/pr8.png";
+import work6 from "../../src/img/project/pr7.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { motion } from "framer-motion";
@@ -92,68 +92,200 @@ const Portfolio = () => {
             containerClass="-mx-[10px]"
             itemClass="px-[10px]"
           >
-            <div>
-              <img src={work1} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img class="rounded-t-lg" src={work1} alt="" />
+              </a>
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "I've developed a cutting-edge website with AI-powered ,
+                  including dynamic image and text generation, unlocking a world
+                  of creative possibilities."
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/Scribble"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#4EC077] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src={work2} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work2} alt="" />
+
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "I've crafted a user-friendly website for seamless burger
+                  ordering, complete with a robust backend system for efficient
+                  order management and status updates."
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/Order-Food-Online"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-black text-center  bg-[#FDF2E9] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src={work3} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work3} alt="" />
+
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "Crafted a unique website enabling users to easily borrow a
+                  wide range of items, promoting resource sharing and community
+                  collaboration."
+                </p>
+                <a
+                  href="https://github.com/mud1tx/Consumer"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-white text-center  bg-[#4EC077] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work4} alt="" />
+
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "Developed a user-friendly website that simplifies shoe
+                  ordering, providing a seamless shopping experience for
+                  footwear enthusiasts."
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/Nikestore-client"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-white text-center  bg-[#222222] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src={work4} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work5} alt="" />
+
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "Built a Netflix-inspired movie streaming platform, delivering
+                  a seamless and feature-rich viewing experience." It also have
+                  password protection
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/netflix"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-white text-center  bg-[#D81F26] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src={work5} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work6} alt="" />
 
-            <div>
-              <img src={work6} alt="work" />
-              <div>
-                <a href="https://github.com/AmanTrivedi1/Tweet">
-                  <button className="border border-text text-text hover:text-accent font-bold px-2 py-2 mt-2">
-                    Source Code
-                  </button>
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  "Developed a versatile note-taking website, like Notion,
+                  empowering users to create and share notes effortlessly,
+                  fostering collaboration with others"
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/TakeNotes"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-black text-center  bg-[#ffffff] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>

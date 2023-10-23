@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Resume from "../../src/img/Aman (1).pdf";
+import Resume from "../../src/img/AmanResume.pdf";
 const line1 = "Aman Trivedi";
 const line2 = "I am a full Stack developer.";
 
