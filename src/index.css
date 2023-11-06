@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto Slab", serif;
+}
+
 @layer base {
   body {
     @apply text-primary font-secondary bg-primary;
