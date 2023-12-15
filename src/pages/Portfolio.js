@@ -7,6 +7,7 @@ import work5 from "../../src/img/project/pr8.png";
 import work6 from "../../src/img/project/pr7.png";
 import work7 from "../../src/img/project/pr9.png";
 import work10 from "../../src/img/project/pr10.png";
+import work11 from "../../src/img/project/pr11.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { motion } from "framer-motion";
@@ -106,6 +107,38 @@ const Portfolio = () => {
                 <a
                   href="https://github.com/mud1tx/Consumer"
                   class="inline-flex items-center px-3 py-2 text-sm font-medium  text-white text-center  bg-[#4EC077] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                >
+                  Source Code
+                  <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img class="rounded-t-lg" src={work11} alt="" />
+
+              <div class="p-5">
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                 Designed and developed a user-centric website empowering individuals
+                 to seamlessly manage tasks and track activities enhancing productivity", 
+                </p>
+                <a
+                  href="https://github.com/AmanTrivedi1/TaskManager"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium  text-white text-center  bg-gradient-to-br from-[#16E370] to-[#096BDE] rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 "
                 >
                   Source Code
                   <svg
