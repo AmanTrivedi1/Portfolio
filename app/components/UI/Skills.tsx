@@ -23,6 +23,9 @@ const Skills = () => {
     { id: 10, src: "tailwind.png", alt: "Tailwind" },
     { id: 11, src: "git.svg", alt: "Git" },
     { id: 12, src: "github.svg", alt: "Github" },
+    { id: 13, src: "shadcn.png", alt: "Shadcn" },
+    { id: 13, src: "nextui.png", alt: "NextUi" },
+
   ];
 
   const BACKEND: Skill[] = [
@@ -30,12 +33,11 @@ const Skills = () => {
     { id: 2, src: "express.svg", alt: "CSS" },
     { id: 3, src: "mongodb.svg", alt: "Javascript" },
     { id: 4, src: "postgres.png", alt: "Java" },
-    { id: 5, src: "linux.png", alt: "Typescript" },
-    { id: 6, src: "jenkins.png", alt: "Bootstrap" },
-    { id: 7, src: "nginx.svg", alt: "React" },
-    { id: 8, src: "Docker.svg", alt: "Redux" },
-    { id: 9, src: "aws.png", alt: "Tailwind" },
-    { id: 10, src: "graphql.svg", alt: "Git" },
+    { id: 5, src: "kafka.png", alt: "Kafka" },
+    { id: 6, src: "nginx.svg", alt: "React" },
+    { id: 7, src: "Docker.svg", alt: "Redux" },
+    { id: 8, src: "aws.png", alt: "Tailwind" },
+    { id: 9, src: "graphql.svg", alt: "Git" },
   ];
 
   return (

@@ -38,7 +38,7 @@ const HeroPage = () => {
             </div>
             <div className="p-2 pl-4 border rounded-full border-primaryBorder lg:py-4">
               <h1 className="text-base text-primaryCream sm:text-xl">
-                Hello, I'm Mudit
+                Hello, I'm Aman
                 <div className="relative">
                   <motion.div
                     animate={{
@@ -86,7 +86,7 @@ const HeroPage = () => {
               </motion.div>
             </div>
             <h1 className="sm:text-xs lg:text-base">
-              // Devops
+              // I am
               <br />
               Full-Stack Developer
             </h1>
@@ -176,21 +176,21 @@ const HeroPage = () => {
           </div>
           <div className="flex gap-2 justify-center items-center p-2 border border-primaryBorder rounded-[40px]">
             <Link
-              href="https://twitter.com/muditagarwalna"
+              href="https://twitter.com/Aman_trivedi10"
               target="_blank"
               className="bg-primaryCream text-primaryBlack p-3 rounded-full"
             >
               <BsTwitterX className="text-xl" />
             </Link>
             <Link
-              href="https://github.com/mud1tx"
+              href="https://github.com/AmanTrivedi1"
               target="_blank"
               className="bg-primaryCream text-primaryBlack p-3 rounded-full"
             >
               <BsGithub className="text-xl" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/mudit-agarwal-a9a9341b6/"
+              href="https://www.linkedin.com/in/aman-trivedi-a70974213/"
               target="_blank"
               className="bg-primaryCream text-primaryBlack p-3 rounded-full"
             >

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { FaLinux } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
 import { GrGraphQl } from "react-icons/gr";
 import { FaNodeJs } from "react-icons/fa";
 
@@ -23,8 +23,7 @@ const WhatIDoPage = () => {
                   Frontend Development
                 </h1>
                 <p className="text-sm text-primaryCream">
-                  Designing interfaces that are intuitive, efficient, and
-                  enjoyable to use.
+                I craft engaging user interfaces with a seamless blend of creativity and functionality to elevate user experiences.
                 </p>
               </div>
             </div>
@@ -37,8 +36,7 @@ const WhatIDoPage = () => {
                   Backend Development
                 </h1>
                 <p className="text-sm text-primaryCream">
-                  Designing interfaces that are intuitive, efficient, and
-                  enjoyable to use.
+                I engineer robust backend systems with scalable architecture and efficient algorithms to power seamless digital experiences
                 </p>
               </div>
             </div>
@@ -51,8 +49,7 @@ const WhatIDoPage = () => {
                   Full Stack Development
                 </h1>
                 <p className="text-sm text-primaryCream">
-                  Designing interfaces that are intuitive, efficient, and
-                  enjoyable to use.
+                I specialize in full-stack development, seamlessly integrating front-end creativity with back-end robustness to deliver comprehensive digital solutions.
                 </p>
               </div>
             </div>
@@ -60,12 +57,12 @@ const WhatIDoPage = () => {
           <div className="flex-grow w-64 ">
             <div className="h-full pb-10 pl-6 pr-10 border rounded-md bg-primaryBlackCard border-primaryBorder ">
               <div className="flex flex-col gap-2 pt-28">
-                <FaLinux className="text-primaryDarkOrange text-4xl" />
+                <FaFigma className="text-primaryDarkOrange text-4xl" />
                 <h1 className="text-lg font-semibold text-primaryDarkOrange">
-                  DevOps
+                  Figma
                 </h1>
                 <p className="text-sm text-primaryCream">
-                  Designing interfaces that are intuitive, efficient, and
+                I design intuitive user interfaces and captivating user experiences using Figma, blending creativity with functionality to bring digital visions to life
                 </p>
               </div>
             </div>

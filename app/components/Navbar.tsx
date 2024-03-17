@@ -35,7 +35,7 @@ const Navbar = () => {
             // onClick={toggleDropdown  }
           >
             <div className="w-4 h-4 rounded-3xl bg-primaryCream"></div>
-            <div>mud1tx</div>
+            <div className="animate-pulse">Aman</div>
           </div>
           {/* <div
             className="p-2 border border-primaryBorder rounded-3xl cursor-pointer"

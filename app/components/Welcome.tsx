@@ -22,9 +22,9 @@ const Welcome: React.FC<WelcomeProps> = ({
     "Hallo",
     "你好 ",
     "こんにちは ",
-    "مرحبا",
     "Hola",
     "नमस्ते ",
+    "I am Aman",
   ];
 
   useEffect(() => {

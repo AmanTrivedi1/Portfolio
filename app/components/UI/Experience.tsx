@@ -16,36 +16,22 @@ const Experience = () => {
   const EXPERIENCE: Experience[] = [
     {
       id: 1,
-      name: "TaskLabs",
-      image: "tasklabs.jpeg",
+      name: "Stairs",
+      image: "stairs.svg",
       position: "SDE-Intern",
-      link: "https://www.linkedin.com/company/tasklabs/about/",
+      link: "https://www.linkedin.com/company/thestairs/",
       color: "primaryCyan",
     },
     {
       id: 2,
-      name: "activist",
-      image: "activist.png",
+      name: "Ecentric India",
+      image: "ecentric.svg",
       position: "Open Source Contribution",
-      link: "https://github.com/activist-org/activist/pull/98",
+      link: "https://github.com/AmanTrivedi1/EcentricIndia",
       color: "primaryPurple",
     },
-    {
-      id: 3,
-      name: "Flowbite React",
-      image: "flowbite-react.png",
-      position: "Open Source Contribution",
-      link: "https://github.com/themesberg/flowbite-react/pull/1160#event-11125703749",
-      color: "primaryPink",
-    },
-    {
-      id: 4,
-      name: "Cuttle",
-      image: "cuttle.png",
-      position: "Open Source Contribution",
-      link: "https://github.com/cuttle-cards/cuttle/issues/362#event-9067224107",
-      color: "primaryDarkOrange",
-    },
+   
+  
   ];
 
   return (
@@ -73,14 +59,14 @@ const Experience = () => {
                 <Link
                   href={exp.link}
                   target="_blank"
-                  className=" text-primaryBlack p-3 rounded-full"
+                  className=" text-primaryBlack   p-3  rounded-full"
                 >
                   <Image
                     src={"/" + exp.image}
                     alt={exp.name}
                     width={100}
                     height={100}
-                    className="h-full w-full"
+                    className="h-full rounded-lg  p-1 bg-primaryBorder "
                   />
                 </Link>
               </div>
