@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="flex items-center justify-center w-full mx-1 sm:mx-2 md:mx-3 lg:mx-3 max-w-[13xl]">
             <div className="flex flex-col items-center justify-between w-full pb-2 sm:flex-row">
               <h1 className="mx-1 mt-2 text-lg font-medium text-primaryCream sm:mx-2 md:mx-3 lg:mx-4">
-                mud1tx &copy;2024 - Privacy Policy
+                AmanTrivedi &copy;2024 - Privacy Policy
               </h1>
               <h1 className="mx-1 mt-2 text-lg font-medium text-primaryCream sm:mx-2 md:mx-3 lg:mx-4">
                 Kanpur, India

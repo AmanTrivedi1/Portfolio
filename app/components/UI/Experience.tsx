@@ -26,7 +26,7 @@ const Experience = () => {
       id: 2,
       name: "Ecentric India",
       image: "ecentric.svg",
-      position: "Open Source Contribution",
+      position: "Freelancing",
       link: "https://github.com/AmanTrivedi1/EcentricIndia",
       color: "primaryPurple",
     },
