@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import Welcome from "./components/Welcome";
-import HomePage from "./(Home)/page";
+import HomePage from "./landingpage";
+
 
 const MainPage = () => {
   const [animationCompleted, setAnimationCompleted] = useState<boolean>(false);
