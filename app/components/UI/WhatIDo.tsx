@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";

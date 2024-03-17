@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BsTwitterX, BsGithub, BsLinkedin } from "react-icons/bs";
 import Link from "next/link";

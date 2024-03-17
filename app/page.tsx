@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
 import Welcome from "./components/Welcome";
-import HomePage from "./landingpage";
-
+import HomePage from "./components/UI/page";
 
 const MainPage = () => {
   const [animationCompleted, setAnimationCompleted] = useState<boolean>(false);
@@ -13,7 +12,6 @@ const MainPage = () => {
         animationCompleted={animationCompleted}
         setAnimationCompleted={setAnimationCompleted}
       />
-      {/* Adding to redeploy */}
       {animationCompleted && (
         <div className="w-full h-full">
           <HomePage />

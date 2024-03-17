@@ -1,40 +1,41 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
 type Skill = {
-  id: string; // Adding id field
+  id: number;
   src: string;
   alt: string;
 };
 
 const Skills = () => {
   const FRONTEND: Skill[] = [
-    { id: "1", src: "html-5.png", alt: "HTML" },
-    { id: "2", src: "css.png", alt: "CSS" },
-    { id: "3", src: "javascript.svg", alt: "Javascript" },
-    { id: "4", src: "java.png", alt: "Java" },
-    { id: "5", src: "typescript.png", alt: "Typescript" },
-    { id: "6", src: "bootstrap.svg", alt: "Bootstrap" },
-    { id: "7", src: "react.png", alt: "React" },
-    { id: "8", src: "redux.svg", alt: "Redux" },
-    { id: "9", src: "next.png", alt: "Next" },
-    { id: "10", src: "tailwind.png", alt: "Tailwind" },
-    { id: "11", src: "git.svg", alt: "Git" },
-    { id: "12", src: "github.svg", alt: "Github" },
+    { id: 1, src: "html-5.png", alt: "HTML" },
+    { id: 2, src: "css.png", alt: "CSS" },
+    { id: 3, src: "javascript.svg", alt: "Javascript" },
+    { id: 4, src: "java.png", alt: "Java" },
+    { id: 5, src: "typescript.png", alt: "Typescript" },
+    { id: 6, src: "bootstrap.svg", alt: "Bootstrap" },
+    { id: 7, src: "react.png", alt: "React" },
+    { id: 8, src: "redux.svg", alt: "Redux" },
+    { id: 9, src: "next.png", alt: "Next" },
+    { id: 10, src: "tailwind.png", alt: "Tailwind" },
+    { id: 11, src: "git.svg", alt: "Git" },
+    { id: 12, src: "github.svg", alt: "Github" },
   ];
 
   const BACKEND: Skill[] = [
-    { id: "13", src: "node-js.png", alt: "HTML" },
-    { id: "14", src: "express.svg", alt: "CSS" },
-    { id: "15", src: "mongodb.svg", alt: "Javascript" },
-    { id: "16", src: "postgres.png", alt: "Java" },
-    { id: "17", src: "linux.png", alt: "Typescript" },
-    { id: "18", src: "jenkins.png", alt: "Bootstrap" },
-    { id: "19", src: "nginx.svg", alt: "React" },
-    { id: "20", src: "Docker.svg", alt: "Redux" },
-    { id: "21", src: "aws.png", alt: "Tailwind" },
-    { id: "22", src: "graphql.svg", alt: "Git" },
+    { id: 1, src: "node-js.png", alt: "HTML" },
+    { id: 2, src: "express.svg", alt: "CSS" },
+    { id: 3, src: "mongodb.svg", alt: "Javascript" },
+    { id: 4, src: "postgres.png", alt: "Java" },
+    { id: 5, src: "linux.png", alt: "Typescript" },
+    { id: 6, src: "jenkins.png", alt: "Bootstrap" },
+    { id: 7, src: "nginx.svg", alt: "React" },
+    { id: 8, src: "Docker.svg", alt: "Redux" },
+    { id: 9, src: "aws.png", alt: "Tailwind" },
+    { id: 10, src: "graphql.svg", alt: "Git" },
   ];
 
   return (
@@ -54,7 +55,10 @@ const Skills = () => {
             speed={30}
           >
             {FRONTEND.map((img) => (
-              <div key={img.id} className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
+              <div
+                key={img.id}
+                className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer"
+              >
                 <Image
                   src={"/" + img.src}
                   alt={img.alt}
@@ -73,7 +77,10 @@ const Skills = () => {
             gradientColor="#0e100f"
           >
             {BACKEND.map((img) => (
-              <div key={img.id} className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
+              <div
+                key={img.id}
+                className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer"
+              >
                 <Image
                   src={"/" + img.src}
                   alt={img.alt}
