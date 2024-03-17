@@ -85,7 +85,7 @@ const HeroPage = () => {
               </motion.div>
             </div>
             <h1 className="sm:text-xs lg:text-base">
-              // Devops
+              {/* Devops */}
               <br />
               Full-Stack Developer
             </h1>
@@ -93,7 +93,7 @@ const HeroPage = () => {
               DIGITAL
             </h1>
             <h1 className="sm:text-xs lg:text-base">
-              // Based in
+              {/* Based in */}
               <br />
               Kanpur, India
             </h1>
@@ -168,7 +168,7 @@ const HeroPage = () => {
         <main className="px-2 py-2 m-auto max-w-[13xl] sm:mx-2 md:mx-3 lg:mx-4 flex items-center justify-between">
           <div className="flex items-center justify-between">
             <h1 className="sm:text-xs lg:text-base gap-2 p-2">
-              // Design, Code
+              {/* Design, Code */}
               <br />
               Engage
             </h1>
