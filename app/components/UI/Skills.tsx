@@ -34,10 +34,9 @@ const Skills = () => {
     { id: 3, src: "mongodb.svg", alt: "Javascript" },
     { id: 4, src: "postgres.png", alt: "Java" },
     { id: 5, src: "kafka.png", alt: "Kafka" },
-    { id: 6, src: "nginx.svg", alt: "React" },
-    { id: 7, src: "Docker.svg", alt: "Redux" },
-    { id: 8, src: "aws.png", alt: "Tailwind" },
-    { id: 9, src: "graphql.svg", alt: "Git" },
+    { id: 6, src: "Docker.svg", alt: "Redux" },
+    { id: 7, src: "aws.png", alt: "Tailwind" },
+    { id: 8, src: "graphql.svg", alt: "Git" },
   ];
 
   return (
