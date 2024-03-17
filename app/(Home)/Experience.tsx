@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 type Experience = {
+  id: string; // Adding id field
   name: string;
   image: string;
   position: string;
@@ -13,6 +14,7 @@ type Experience = {
 const Experience = () => {
   const EXPERIENCE: Experience[] = [
     {
+      id: "1",
       name: "TaskLabs",
       image: "tasklabs.jpeg",
       position: "SDE-Intern",
@@ -20,6 +22,7 @@ const Experience = () => {
       color: "primaryCyan",
     },
     {
+      id: "2",
       name: "activist",
       image: "activist.png",
       position: "Open Source Contribution",
@@ -27,6 +30,7 @@ const Experience = () => {
       color: "primaryPurple",
     },
     {
+      id: "3",
       name: "Flowbite React",
       image: "flowbite-react.png",
       position: "Open Source Contribution",
@@ -34,6 +38,7 @@ const Experience = () => {
       color: "primaryPink",
     },
     {
+      id: "4",
       name: "Cuttle",
       image: "cuttle.png",
       position: "Open Source Contribution",
@@ -61,7 +66,7 @@ const Experience = () => {
         </div>
         <main className="flex flex-row flex-wrap w-11/12 sm:w-9/12 m-auto justify-between items-end">
           {EXPERIENCE.map((exp) => (
-            <div>
+            <div key={exp.id}> {/* Using id as key */}
               <div>
                 <Link
                   href={exp.link}

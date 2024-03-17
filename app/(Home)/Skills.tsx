@@ -3,37 +3,38 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 type Skill = {
+  id: string; // Adding id field
   src: string;
   alt: string;
 };
 
 const Skills = () => {
   const FRONTEND: Skill[] = [
-    { src: "html-5.png", alt: "HTML" },
-    { src: "css.png", alt: "CSS" },
-    { src: "javascript.svg", alt: "Javascript" },
-    { src: "java.png", alt: "Java" },
-    { src: "typescript.png", alt: "Typescript" },
-    { src: "bootstrap.svg", alt: "Bootstrap" },
-    { src: "react.png", alt: "React" },
-    { src: "redux.svg", alt: "Redux" },
-    { src: "next.png", alt: "Next" },
-    { src: "tailwind.png", alt: "Tailwind" },
-    { src: "git.svg", alt: "Git" },
-    { src: "github.svg", alt: "Github" },
+    { id: "1", src: "html-5.png", alt: "HTML" },
+    { id: "2", src: "css.png", alt: "CSS" },
+    { id: "3", src: "javascript.svg", alt: "Javascript" },
+    { id: "4", src: "java.png", alt: "Java" },
+    { id: "5", src: "typescript.png", alt: "Typescript" },
+    { id: "6", src: "bootstrap.svg", alt: "Bootstrap" },
+    { id: "7", src: "react.png", alt: "React" },
+    { id: "8", src: "redux.svg", alt: "Redux" },
+    { id: "9", src: "next.png", alt: "Next" },
+    { id: "10", src: "tailwind.png", alt: "Tailwind" },
+    { id: "11", src: "git.svg", alt: "Git" },
+    { id: "12", src: "github.svg", alt: "Github" },
   ];
 
   const BACKEND: Skill[] = [
-    { src: "node-js.png", alt: "HTML" },
-    { src: "express.svg", alt: "CSS" },
-    { src: "mongodb.svg", alt: "Javascript" },
-    { src: "postgres.png", alt: "Java" },
-    { src: "linux.png", alt: "Typescript" },
-    { src: "jenkins.png", alt: "Bootstrap" },
-    { src: "nginx.svg", alt: "React" },
-    { src: "Docker.svg", alt: "Redux" },
-    { src: "aws.png", alt: "Tailwind" },
-    { src: "graphql.svg", alt: "Git" },
+    { id: "13", src: "node-js.png", alt: "HTML" },
+    { id: "14", src: "express.svg", alt: "CSS" },
+    { id: "15", src: "mongodb.svg", alt: "Javascript" },
+    { id: "16", src: "postgres.png", alt: "Java" },
+    { id: "17", src: "linux.png", alt: "Typescript" },
+    { id: "18", src: "jenkins.png", alt: "Bootstrap" },
+    { id: "19", src: "nginx.svg", alt: "React" },
+    { id: "20", src: "Docker.svg", alt: "Redux" },
+    { id: "21", src: "aws.png", alt: "Tailwind" },
+    { id: "22", src: "graphql.svg", alt: "Git" },
   ];
 
   return (
@@ -53,7 +54,7 @@ const Skills = () => {
             speed={30}
           >
             {FRONTEND.map((img) => (
-              <div className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
+              <div key={img.id} className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
                 <Image
                   src={"/" + img.src}
                   alt={img.alt}
@@ -72,7 +73,7 @@ const Skills = () => {
             gradientColor="#0e100f"
           >
             {BACKEND.map((img) => (
-              <div className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
+              <div key={img.id} className="bg-primaryBorder m-1 rounded-xl p-4 cursor-pointer">
                 <Image
                   src={"/" + img.src}
                   alt={img.alt}

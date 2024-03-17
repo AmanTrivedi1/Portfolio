@@ -37,7 +37,7 @@ const HeroPage = () => {
             </div>
             <div className="p-2 pl-4 border rounded-full border-primaryBorder lg:py-4">
               <h1 className="text-base text-primaryCream sm:text-xl">
-                Hello, I'm Mudit
+                Hello I&lsquo;m Mudit
                 <div className="relative">
                   <motion.div
                     animate={{
