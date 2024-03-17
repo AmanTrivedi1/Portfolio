@@ -13,6 +13,7 @@ const MainPage = () => {
         animationCompleted={animationCompleted}
         setAnimationCompleted={setAnimationCompleted}
       />
+      {/* Adding to redeploy */}
       {animationCompleted && (
         <div className="w-full h-full">
           <HomePage />
