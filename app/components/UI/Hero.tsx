@@ -12,6 +12,18 @@ const HeroPage = () => {
   const [xTranslation, setXTranslation] = useState(0);
   const [yTranslation, setYTranslation] = useState(0);
 
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+
+
   useEffect(() => {
     const interval = setInterval(() => {
       const randomX = Math.random() * 150 - 100;
@@ -22,6 +34,10 @@ const HeroPage = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+ 
+
+
 
   return (
     <div className="h-[calc(100vh-64px)]">
@@ -163,7 +179,32 @@ const HeroPage = () => {
             </h1>
           </div>
         </main>
+       
       </div>
+
+
+
+         <div className="flex items-center justify-center ">
+             <button
+                  className="overflow-hidden mb-2 relative w-32 p-2 h-12 bg-primaryBorder text-white border-none rounded-md text-xl font-bold cursor-pointer group"
+                  onClick={() => {
+                    router.push("/contact");
+                  }}
+                >
+                  Hover me!
+                  <span className="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                  <span className="absolute w-36 h-32 -top-8 -left-2 bg-blue-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                  <span className="absolute w-36 h-32 -top-8 -left-2 bg-blue-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                  <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6">
+                    Resume
+                  </span>
+                </button>
+         </div>
+
+
+
+
+         
       <div className="h-[86px] w-full">
         <div className="h-1 border-t border-primaryBorder"> </div>
         <main className="px-2 py-2 m-auto max-w-[13xl] sm:mx-2 md:mx-3 lg:mx-4 flex items-center justify-between">
