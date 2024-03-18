@@ -179,6 +179,7 @@ const HeroPage = () => {
             </h1>
           </div>
           <div className="flex items-center justify-center ">
+            <Link href="https://docs.google.com/document/d/1kzG4lkaCbqegHzOz6RrghG6Y1KxAlScFRaBxScXAC8w/edit?usp=sharing">
              <button
                   className="overflow-hidden mb-2 relative w-32 p-2 h-12 bg-primaryBorder text-white border-none rounded-md text-xl font-bold cursor-pointer group"
                   onClick={() => {
@@ -193,6 +194,7 @@ const HeroPage = () => {
                     Resume
                   </span>
                 </button>
+                </Link>
          </div>
         </main>
        
