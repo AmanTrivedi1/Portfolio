@@ -33,7 +33,7 @@ const Projects = () => {
       liveLink: "https://manageyourtask.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/TaskManager",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"Nextjs 14 , NeonDb (For Database) , Shadcn (For Ui Integration) , Clerk(For Authentication) , ClerkORG (For User Orgnization)"
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const Projects = () => {
       liveLink: "https://diagram-io.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/Diagram",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"NextJS 14 , Convex(For Database) , Editor.js (For Rich Text Editor) , ExcelDraw (For White board feature) "
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ const Projects = () => {
       liveLink: "https://itstakenote.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/TakeNotes",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"NextJS 14 , Convex (For Realtime database) , Clerk (For Authentication) , Editor.js(For Rich text Editor)"
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ const Projects = () => {
       liveLink: "https://bookinwebapp.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/bookinWebapp",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"React JS , NextJs13 , NextAuth (For Authentication) , Cloudanry (For Image Storage)"
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ const Projects = () => {
       liveLink: "https://linkitt.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/customlink",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"React JS , Next JS14 , AWS S3 , Mongodb , TailwindCss, shadcn"
     },
     {
       id: 7,
@@ -73,7 +73,7 @@ const Projects = () => {
       liveLink: "https://createreadmemd.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/CreateReadme",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"React Js Next JS14 "
     },
     {
       id: 8,
@@ -81,7 +81,7 @@ const Projects = () => {
       liveLink: "https://itsmynetflix.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/netflix",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"React JS , Next Js14 , Mongodb ,TMDb Api "
     },
     {
       id: 9,
@@ -97,7 +97,7 @@ const Projects = () => {
       liveLink: "https://nike-store-client.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/Nikestore-client",
       description:"Updated soon", 
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"NEXT JS14 , Stripe (for Payment) , CMS(for Products Managment)"
     },
   ];
 
