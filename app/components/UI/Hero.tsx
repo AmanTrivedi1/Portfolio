@@ -178,13 +178,7 @@ const HeroPage = () => {
               <span className="text-primaryCyan"> functionality</span>
             </h1>
           </div>
-        </main>
-       
-      </div>
-
-
-
-         <div className="flex items-center justify-center ">
+          <div className="flex items-center justify-center ">
              <button
                   className="overflow-hidden mb-2 relative w-32 p-2 h-12 bg-primaryBorder text-white border-none rounded-md text-xl font-bold cursor-pointer group"
                   onClick={() => {
@@ -200,14 +194,13 @@ const HeroPage = () => {
                   </span>
                 </button>
          </div>
+        </main>
+       
+      </div>
 
-
-
-
-         
       <div className="h-[86px] w-full">
         <div className="h-1 border-t border-primaryBorder"> </div>
-        <main className="px-2 py-2 m-auto max-w-[13xl] sm:mx-2 md:mx-3 lg:mx-4 flex items-center justify-between">
+        <main className="px-2 py-2 m-auto max-w-13xl  sm:mx-2 md:mx-3 lg:mx-4 flex items-center justify-between">
           <div className="flex items-center justify-between">
             <h1 className="sm:text-xs lg:text-base gap-2 p-2">
               // Design, Code

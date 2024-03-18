@@ -8,9 +8,9 @@ import { FaNodeJs } from "react-icons/fa";
 const WhatIDoPage = () => {
   return (
     <div>
-      <main className="flex flex-col justify-center w-full m-auto mt-6 max-w-13xl">
+      <main className="flex flex-col justify-center w-full m-auto mt-8 max-w-13xl">
         <div>
-          <h1 className="p-4 text-xl font-semibold text-primaryPurple sm:text-2xl md:text-3xl sm:pb-10 text-center">
+          <h1 className="p-4 text-xl  font-semibold text-primaryPurple sm:text-2xl md:text-3xl sm:pb-10 text-center">
             WHAT I DO
           </h1>
         </div>
