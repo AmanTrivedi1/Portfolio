@@ -91,7 +91,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-11/12 m-auto">
+    <div className="w-11/12 sm:w-9/12 m-auto">
       <main className="flex flex-col justify-center w-full m-auto mt-14 max-w-13xl">
         <div>
           <h1 className="p-4 text-xl font-semibold text-primaryPink sm:text-2xl md:text-3xl sm:pb-10 text-center">
@@ -100,10 +100,10 @@ const Projects = () => {
         </div>  
       <div className=' '>
         {PROJECTS.map((q) => (
-          <div key={q.id} className='flex items-start justify-between '>
-            <div>
-               <button className="w-full text-left sm:text-base text-sm
-               focus:outline-none p-4 rounded-sm  shadow-md flex justify-between items-center"
+          <div key={q.id} className='flex items-start border-b mb-4 border-primaryBorder justify-between '>
+            <div className="">
+               <button className="w-full text-left  text-xl font-semibold
+                  focus:outline-none p-4 rounded-sm  shadow-md flex justify-between items-center"
                onClick={()=> setActiveQuestion(activeQuestion === q.id ? null : q.id) }>
                  {q.name} 
                {activeQuestion === q.id ? (<IoIosArrowDropup className='text-3xl  hidden p-1 rounded-full '/>) : <IoIosArrowDropdown className='text-3xl  hidden  p-1 rounded-full '/> }
@@ -114,7 +114,7 @@ const Projects = () => {
                    initial={{ opacity: 0, height: 0 }}
                    animate={{ opacity: 1, height: "auto" }}
                    exit={{ opacity: 0, height: 0 }}>
-                   <p className='max-w-[650px] ml-5 text-primaryOrange  text-start '>{q.description}</p>
+                   <p className='max-w-[650px] ml-5 text-primaryCream pb-2 text-start '>{q.description}</p>
                  </motion.div>
                  )}
                </AnimatePresence>
@@ -135,7 +135,6 @@ const Projects = () => {
                 </Link>
                </div>
           </div>
-          
         ))}
     </div>
       </main>
