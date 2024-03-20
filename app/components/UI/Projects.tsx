@@ -93,9 +93,9 @@ const Projects = () => {
     },
     {
       id: 10,
-      name: "Nike Store",
-      liveLink: "https://nike-store-client.vercel.app/",
-      githubLink: "https://github.com/AmanTrivedi1/Nikestore-client",
+      name: "Learning Management",
+      liveLink: "https://itsmylms.vercel.app/",
+      githubLink: "https://github.com/AmanTrivedi1/LearningManagement",
       description:"Updated soon", 
       tectsStack:"NEXT JS14 , Stripe (for Payment) , CMS(for Products Managment)"
     },
