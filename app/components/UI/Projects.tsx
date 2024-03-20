@@ -97,7 +97,7 @@ const Projects = () => {
       liveLink: "https://itsmylms.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/LearningManagement",
       description:"Updated soon", 
-      tectsStack:"NEXT JS14 , Stripe (for Payment) , CMS(for Products Managment)"
+      tectsStack:"NEXT JS14 , App Routing , NeonDb , Uploadthings(For Content uplaod) , Mux(For Video optimization)"
     },
   ];
 
