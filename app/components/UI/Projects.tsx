@@ -85,11 +85,11 @@ const Projects = () => {
     },
     {
       id: 9,
-      name: "Board.io",
-      liveLink: "https://itstakenote.vercel.app/",
+      name: "Whiteboard.io",
+      liveLink: "https://whiteboardd.vercel.app/",
       githubLink: "https://github.com/AmanTrivedi1/whiteboard",
       description:"Updated soon",
-      tectsStack:"React JS , Node JS , Express JS , Tailwind Css , Mongodb , Multer"
+      tectsStack:"NextJs 14 , React JS , TailwindCss , Shadcn , Convex (Database) , LiveBlock(For Live cursor) , Clerk(For Authentication) "
     },
     {
       id: 10,
