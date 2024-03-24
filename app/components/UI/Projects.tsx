@@ -99,6 +99,14 @@ const Projects = () => {
       description:"Updated soon", 
       tectsStack:"NEXT JS14 , App Routing , NeonDb , Uploadthings(For Content uplaod) , Mux(For Video optimization)"
     },
+     {
+      id: 11,
+      name: "E-commerce Webapp",
+      liveLink: "https://itsmylms.vercel.app/",
+      githubLink: "https://github.com/AmanTrivedi1/Ecom",
+      description:"Updated soon", 
+      tectsStack:"NEXT JS13 , App Routing , NeonDb , Prisma , Postgresql , zod , React form"
+    },
   ];
 
   return (
