@@ -16,6 +16,14 @@ const Experience = () => {
   const EXPERIENCE: Experience[] = [
     {
       id: 1,
+      name: "VacationSaga",
+      image: "vactionsaga.webp",
+      position: "Full Time(SDE)",
+      link: "https://www.vacationsaga.com/",
+      color: "primaryDarkOrange",
+    },
+    {
+      id: 2,
       name: "Stairs",
       image: "stairs.svg",
       position: "SDE-Intern",
@@ -23,13 +31,14 @@ const Experience = () => {
       color: "primaryCyan",
     },
     {
-      id: 2,
-      name: "Ecentric India",
+      id: 3,
+      name: "EcentricIndia",
       image: "ecentric.svg",
       position: "Freelancing",
       link: "https://github.com/AmanTrivedi1/EcentricIndia",
       color: "primaryPurple",
     },
+  
    
   
   ];
@@ -59,7 +68,7 @@ const Experience = () => {
                 <Link
                   href={exp.link}
                   target="_blank"
-                  className=" text-primaryBlack   p-3  rounded-full"
+                  className=" text-primaryBlack   p-2  rounded-full"
                 >
                   <Image
                     src={"/" + exp.image}
