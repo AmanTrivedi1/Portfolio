@@ -27,7 +27,7 @@ const Experience = () => {
       name: "Stairs",
       image: "stairs.svg",
       position: "SDE-Intern",
-      link: "https://www.linkedin.com/company/thestairs/",
+      link: "https://www.thestairs.in/",
       color: "primaryCyan",
     },
     {
