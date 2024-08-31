@@ -8,6 +8,7 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Footer from "../Footer";
 
+
 const HomePage = () => {
   return (
     <div>
